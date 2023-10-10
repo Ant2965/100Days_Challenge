@@ -20,7 +20,7 @@ public class duplicate {
     }
 
     public static void main(String args[]) {
-        int nums[] = { 1, 1, 2, 3, 4, 4, 5, 6, 6, 7, 7, 7 };
+        int nums[] = { 1, 1, 2, 3, 4, 4, 5, 6, 6, 7, 7 };
         System.out.print(removeDuplicates(nums));
 
     }
