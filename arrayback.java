@@ -1,5 +1,5 @@
 
-///package backtracking;
+//package backtracking;
 import java.util.*;
 
 public class arrayback {
@@ -16,8 +16,8 @@ public class arrayback {
         num[i] = a;
 
         back(num, i + 1);
-
-        System.out.println(num[i] - 2);
+        num[i] = num[i] - 2;
+        System.out.println(num[i]);
 
     }
 
@@ -25,6 +25,10 @@ public class arrayback {
         int num[] = new int[6];
         int i = 0;
         back(num, i);
+
+        for (int j = 0; j < num.length; j++) {
+            System.out.println(num[j]);
+        }
 
         // TODO Auto-generated method stub
 
