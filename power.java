@@ -1,25 +1,18 @@
-import java.util.*;
-
 public class power {
 
-    public static int powe(int x, int n, int i, int p) {
-
-        if (i == n) {
-            return p * x;
+    public static int pow(int x, int y) {
+        if (y == 0) {
+            return 1;
         }
-        p = p * x;
-
-        return powe(x, n, i + 1, p);
+        return x * pow(x, y - 1);
 
     }
 
-    public static void main(String args[]) {
+    public static void main(String[] args) {
+        int x = 4, y = 3;
 
-        int x = 2;
-        int n = 5;
-        int i = 1;
-        int p = 1;
-        System.out.println(powe(x, n, i, p));
+        int c = pow(x, y);
+        System.out.println(c);
 
     }
 
