@@ -3,7 +3,7 @@ public class Compression {
         String str = "";
         for (int i = 0; i < a.length(); i++) {
             Integer count = 1;
-            while (i < a.length() - 1 && a.charAt(i) == a.charAt(i + 1)) {
+            while (i < a.length()-1 && a.charAt(i) == a.charAt(i + 1)) {
                 count++;
                 i++;
             }
