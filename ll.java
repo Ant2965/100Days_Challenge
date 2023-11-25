@@ -65,12 +65,35 @@ public class ll {
 
 	}
 
+	public static int deletefromend(node temp, int index) {
+
+		int size = 4;
+		index = size - index + 1;
+		if (index == 1) {
+			head = head.next;
+		}
+
+		int count = 1;
+
+		while (count < index - 1) {
+			temp = temp.next;
+			count++;
+
+		}
+		int val = temp.next.data;
+
+		temp.next = temp.next.next;
+
+		return val;
+	}
+
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		add(23);
 		add(33);
 		add(32);
-		middle(34, 2);
+		add(34);
+		// middle(34,2);
 		node temp = head;
 
 		while (temp != null) {
@@ -78,10 +101,17 @@ public class ll {
 			temp = temp.next;
 		}
 
-		node ab = reverse(head);
+		// node ab=reverse(head);
 
-		temp = ab;
+		// temp=ab;
 
+		// while(temp!=null) {
+		// System.out.println(temp.data);
+		// temp=temp.next;
+		// }
+
+		deletefromend(head, 4);
+		temp = head;
 		while (temp != null) {
 			System.out.println(temp.data);
 			temp = temp.next;
