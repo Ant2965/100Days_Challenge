@@ -9,7 +9,6 @@ public class big {
 
 	public static void main(String[] args) {
 		// TODO Auto-
-     String a[] = {"apple","mango","banana"};
--*	}
+     String a[] = {"apple","mango","banana"};	}
 
 }
