@@ -13,7 +13,7 @@ Return the total number of laser beams in the bank.*/
 
 class Solution {
     public int numberOfBeams(String[] bank) {
-
+        int lcs=9;
         int ans=0;
         int prev=0;
 
