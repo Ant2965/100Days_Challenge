@@ -44,7 +44,7 @@ public class Nextgraternumber {
 			System.out.println(next[i]);
 		}
 		
-		
+		// syaass
 		
 	}
 
