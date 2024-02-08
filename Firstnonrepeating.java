@@ -1,5 +1,6 @@
-import java.util.*;
 import java.util.LinkedList;
+import java.util.Queue;
+import java.util.Stack;
 
 public class Firstnonrepeating {
 
@@ -13,24 +14,17 @@ public class Firstnonrepeating {
             ab.add(ch);
             frq[ch-'a']++;
 
-
-
-
-            while(!ab.isEmpty() && frq[ab.peek()-'a']>1){
+         while(!ab.isEmpty() && frq[ab.peek()-'a']>1){
 
                 ab.remove();
-
             }
-
             if(ab.isEmpty()){
                 System.out.println("-1");
             }
             else{
                 System.out.println(ab.peek());
             }
-
-        }
-        
+        } 
     }
 
     public static void main(String args[]){
