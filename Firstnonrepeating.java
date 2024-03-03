@@ -38,3 +38,6 @@ public class Firstnonrepeating {
 
     
 }
+
+//heelo
+//mid sem
