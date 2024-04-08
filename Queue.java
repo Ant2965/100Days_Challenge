@@ -59,7 +59,7 @@ public class Queue {
     }
 
     public static void main(String args[])
-    {
+    {   
 
         makeq a =new makeq(5);
         a.add(1);

@@ -59,7 +59,7 @@ class Solution {
             }
 
         }
-
+        
         while (!a.isEmpty()) {
             e.add(a.pop());
         }
