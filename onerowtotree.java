@@ -39,6 +39,6 @@ class Solution {
             return;
         }
         dfs(root.left, d + 1);
-        dfs(root.right, d + 1);
+        dfs(root.right, d + 1);bgggn
     }
 }
