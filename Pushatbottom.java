@@ -11,7 +11,7 @@ public class Pushatbottom {
             return;
         }
 
-        int top = s.pop();
+        int top = s.pop(); // stores the value for tthe return call;
 
         bottom(s, data);
         s.push(top);
