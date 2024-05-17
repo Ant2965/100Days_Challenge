@@ -47,3 +47,5 @@ class Solution {
         return evaluateTree(root.left) & evaluateTree(root.right);
     }
 }
+
+nerjtnrejtnej
