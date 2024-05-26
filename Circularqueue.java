@@ -82,11 +82,6 @@ public class Circularqueue {
 
 
 
-
-
-
-
-
         while (!a.isEmpty()) {
             System.out.println(a.peek());
             a.remove();
