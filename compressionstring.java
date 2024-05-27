@@ -2,7 +2,8 @@ public class compressionstring {
 
 
     public static String compress(String a ){
-        String s = "";
+        // String s = "";
+        StringBuilder s=new StringBuilder("");
 
         for(int i=0;i<a.length();i++){
             Integer count=1;
@@ -12,13 +13,13 @@ public class compressionstring {
                 count++;
                 i++;
             }
-            s+=a.charAt(i);
+            s.append(a.charAt(i));
             if(count>1){
-                s+=count.toString();
+                s.append(count.toString());
             }
             
         }
-        return s;
+        return s.toString();
     }
     public static void main(String[] args) {
         
