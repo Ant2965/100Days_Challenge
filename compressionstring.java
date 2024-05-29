@@ -28,8 +28,6 @@ public class compressionstring {
         System.out.println(compress(a));
 
 
-
-
     }
     
 }
