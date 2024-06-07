@@ -1,5 +1,5 @@
 //package greedy;
-# antriksh
+
 import java.util.Arrays;
 
 public class Absoluttedifference {
