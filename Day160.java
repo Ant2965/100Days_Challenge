@@ -16,3 +16,5 @@ class Solution {
         return false;
     }
 }
+
+// Starting with hashmaps
