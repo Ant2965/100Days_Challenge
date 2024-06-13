@@ -22,6 +22,9 @@ public class spiral {
              }
 
              for(int j=endcol-1;j>=startcol;j--){
+                if(startcol==endcol){
+                    break;
+                }
                 System.out.print(mat[endrow][j]);
              }
 
