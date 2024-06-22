@@ -29,7 +29,7 @@ public class kanpsack {
         }
     }
 
+tani sun la
 
-    /**/*/*////****/*/*/sss */ */ */ */ */ */
 	
 }
