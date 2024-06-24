@@ -29,6 +29,6 @@ public class kanpsack {
         }
     }
 
-tani 
+tani jj
 	
 }
