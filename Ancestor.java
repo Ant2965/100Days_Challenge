@@ -51,6 +51,8 @@ edges[i].length == 2
 fromi != toi
 There are no duplicate edges.
 The graph is directed and acyclic.
+
+Dsa is dead rn.
  * 
  * 
  * 
@@ -58,21 +60,6 @@ The graph is directed and acyclic.
  * 
  * 
  */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 class Solution {
     private int n;
     private List<Integer>[] g;
