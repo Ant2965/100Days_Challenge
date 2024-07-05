@@ -15,3 +15,5 @@ class Solution {
 }
 
 // Dont know where to start God help me out to start and be consistent in dsa
+
+// One more day with dsa . Lets buckle up and start with the basics
