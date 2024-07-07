@@ -31,7 +31,7 @@
 // // Invalid node value (should not happen in a valid tree as per the problem
 // constraints)
 // throw new IllegalArgumentException("Invalid node value: " + root.val);
-// }
+
 // }
 
 class Solution {
