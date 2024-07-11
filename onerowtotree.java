@@ -21,6 +21,7 @@ class Solution {
 
     public TreeNode addOneRow(TreeNode root, int val, int depth) {
         if (depth == 1) {
+            // tree
             return new TreeNode(val, root, null);
         }
         this.val = val;
