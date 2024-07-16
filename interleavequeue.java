@@ -38,6 +38,7 @@ public class interleavequeue {
             System.out.println(q.peek());
             q.remove();
             q.peek();
+            q.poll();
         }
     }
 }
