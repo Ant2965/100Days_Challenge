@@ -18,6 +18,7 @@ public class interleavequeue {
 
 
         while(!first.isEmpty()){
+            q.poll()
             q.add(first.remove());
             q.add(q.remove());
         }
